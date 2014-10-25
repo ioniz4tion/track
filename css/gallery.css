@@ -152,8 +152,8 @@ form select {
 	margin-bottom: 60px;
 }
 
-input[type="checkbox"] {
-	margin:20px;
+.delete-box {
+	margin:20px !important;
 	width: 25px;
 	height: 25px;
 }
