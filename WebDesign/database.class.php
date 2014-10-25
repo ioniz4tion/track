@@ -5,8 +5,8 @@ class Database
 {
 
     //database login information
-    protected $username = "iqover9000";
-    protected $password = "iOniz4tion";
+    protected $username = "root";
+    protected $password = "qpalzm12Claude";
     protected $database = "track";
     protected $server = "localhost";
 
