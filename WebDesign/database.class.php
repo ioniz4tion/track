@@ -6,7 +6,7 @@ class Database
 
     //database login information
     protected $username = "root";
-    protected $password = "qpalzm12Claude";
+    protected $password = "6DKDTVEf6eTz2YLx";
     protected $database = "track";
     protected $server = "localhost";
 
