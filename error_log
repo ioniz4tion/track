@@ -1,0 +1,59 @@
+[24-Aug-2014 06:56:25 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/index.php on line 6
+[24-Aug-2014 06:57:45 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/index.php on line 6
+[24-Aug-2014 06:59:15 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/gallery.php on line 5
+[24-Aug-2014 06:59:41 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/gallery.php on line 5
+[24-Aug-2014 06:59:42 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/gallery.php on line 5
+[24-Aug-2014 07:00:30 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 6
+[24-Aug-2014 07:05:27 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 9
+[24-Aug-2014 07:05:45 UTC] PHP Fatal error:  spl_autoload(): Class Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 9
+[24-Aug-2014 07:06:05 UTC] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Function 'WebDesign' not found (function 'WebDesign' not found or invalid function name)' in /home/iqover9000/public_html/register3.php:4
+Stack trace:
+#0 /home/iqover9000/public_html/register3.php(4): spl_autoload_register('WebDesign')
+#1 {main}
+  thrown in /home/iqover9000/public_html/register3.php on line 4
+[24-Aug-2014 07:06:23 UTC] PHP Fatal error:  Class 'Functions' not found in /home/iqover9000/public_html/register3.php on line 9
+[24-Aug-2014 07:06:30 UTC] PHP Fatal error:  Class 'Functions' not found in /home/iqover9000/public_html/register3.php on line 9
+[24-Aug-2014 07:21:29 UTC] PHP Fatal error:  Class 'WebDesign\Functions' not found in /home/iqover9000/public_html/register3.php on line 13
+[24-Aug-2014 07:22:03 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 13
+[24-Aug-2014 07:22:22 UTC] PHP Fatal error:  spl_autoload(): Class Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 13
+[24-Aug-2014 07:22:54 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 13
+[24-Aug-2014 07:23:10 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 13
+[24-Aug-2014 07:23:38 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\functions could not be loaded in /home/iqover9000/public_html/register3.php on line 13
+[24-Aug-2014 07:24:09 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 14
+[24-Aug-2014 07:24:23 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 14
+[24-Aug-2014 07:24:40 UTC] PHP Fatal error:  spl_autoload(): Class Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 14
+[24-Aug-2014 07:25:20 UTC] PHP Fatal error:  spl_autoload(): Class Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 14
+[24-Aug-2014 07:25:47 UTC] PHP Fatal error:  spl_autoload(): Class Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 14
+[24-Aug-2014 07:26:07 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 14
+[24-Aug-2014 07:33:06 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 14
+[24-Aug-2014 07:33:12 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Database could not be loaded in /home/iqover9000/public_html/index.php on line 8
+[24-Aug-2014 16:52:45 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 14
+[24-Aug-2014 16:53:36 UTC] PHP Fatal error:  spl_autoload(): Class Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 14
+[24-Aug-2014 16:57:00 UTC] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Function 'WebDesign\Functions' not found (function 'WebDesign\Functions' not found or invalid function name)' in /home/iqover9000/public_html/register3.php:4
+Stack trace:
+#0 /home/iqover9000/public_html/register3.php(4): spl_autoload_register('WebDesign\\Funct...')
+#1 {main}
+  thrown in /home/iqover9000/public_html/register3.php on line 4
+[24-Aug-2014 16:59:16 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 14
+[24-Aug-2014 16:59:53 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign could not be loaded in /home/iqover9000/public_html/register3.php on line 14
+[24-Aug-2014 17:00:10 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 14
+[24-Aug-2014 17:00:29 UTC] PHP Fatal error:  spl_autoload(): Class Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 14
+[24-Aug-2014 17:00:49 UTC] PHP Fatal error:  spl_autoload(): Class WebDesign\Functions could not be loaded in /home/iqover9000/public_html/register3.php on line 14
+[24-Aug-2014 17:03:02 UTC] PHP Fatal error:  Class 'WebDesign\Functions' not found in /home/iqover9000/public_html/register3.php on line 14
+[24-Aug-2014 17:05:01 UTC] PHP Fatal error:  Class 'WebDesign\Functions' not found in /home/iqover9000/public_html/register3.php on line 17
+[24-Aug-2014 17:05:03 UTC] PHP Fatal error:  Class 'WebDesign\Functions' not found in /home/iqover9000/public_html/register3.php on line 17
+[24-Aug-2014 17:07:17 UTC] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Function 'load' not found (function 'load' not found or invalid function name)' in /home/iqover9000/public_html/register3.php:9
+Stack trace:
+#0 /home/iqover9000/public_html/register3.php(9): spl_autoload_register('load')
+#1 {main}
+  thrown in /home/iqover9000/public_html/register3.php on line 9
+[24-Aug-2014 17:07:19 UTC] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Function 'load' not found (function 'load' not found or invalid function name)' in /home/iqover9000/public_html/register3.php:9
+Stack trace:
+#0 /home/iqover9000/public_html/register3.php(9): spl_autoload_register('load')
+#1 {main}
+  thrown in /home/iqover9000/public_html/register3.php on line 9
+[24-Aug-2014 17:07:53 UTC] PHP Fatal error:  Uncaught exception 'LogicException' with message 'Function 'loadasdf' not found (function 'loadasdf' not found or invalid function name)' in /home/iqover9000/public_html/register3.php:9
+Stack trace:
+#0 /home/iqover9000/public_html/register3.php(9): spl_autoload_register('loadasdf')
+#1 {main}
+  thrown in /home/iqover9000/public_html/register3.php on line 9

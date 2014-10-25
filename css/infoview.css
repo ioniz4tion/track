@@ -1,0 +1,37 @@
+table, th, td {
+	border: 1px solid black;
+	text-align:center;
+
+}
+
+table {
+
+	margin-left: 2%;
+	width: 96%;
+
+}
+
+th {
+	padding: 0px 1%;
+
+
+}
+
+.heading-view {
+	text-align: center;
+	font-family: 'arialblack';
+	font-size: 28px;
+	margin: 0px;
+	display: block;
+	clear: both;
+	text-transform: uppercase;
+
+
+}
+
+table.sortable tbody tr:nth-child(2n) td {
+  background: #777;
+}
+table.sortable tbody tr:nth-child(2n+1) td {
+  background: #999;
+}

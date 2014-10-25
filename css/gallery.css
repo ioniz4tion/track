@@ -1,0 +1,169 @@
+img {
+	width: 100%;
+	height: 100%;
+	
+}
+
+.gallery-image {
+	display: inline-block;
+	width:200px;
+	height: 150px;
+	background: #777;
+	margin: 20px;	
+	box-shadow: 0px 0px 1pt 4pt white;
+	transition: all .2s ease-in-out;
+	text-align: center;
+
+}
+
+.gallery-image:hover {	
+	box-shadow: 0px 0px 1pt 4pt #028482;
+	transition: all .2s ease-in-out;
+}
+
+.tiny {
+	width: 100px;
+	height: 75px;
+	margin: 10px;
+}
+
+.small {
+	width: 160px;
+	height: 120px;
+	margin: 15px;
+}
+
+.medium {
+	width: 220px;
+	height: 165px;
+}
+
+.large {
+	width: 300px;
+	height: 225px;
+}
+
+.xlarge {
+	width: 400px;
+	height: 300px;
+}
+
+.stuff {
+	width: 80%;
+	max-width: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.blackout {	
+	position:fixed;
+	top: 0;
+	left:0;
+	z-index: 10;	
+	height: 100%;
+	width: 100%;	
+	background-color: #000;
+	opacity: 0.7;
+	display: none;
+}
+
+.modal-body {
+	overflow: hidden;
+}
+
+.modal {
+	overflow: hidden !important;
+}
+
+/*form {
+	width: 100%;
+	text-align: center;
+	padding-top: 15px;
+}
+
+form select {
+	margin-right: 15px;
+	margin-left: 5px;
+}*/
+
+#new {
+	margin-bottom: 20px;
+}
+
+.new-gallery {
+	z-index: 15;
+	position: fixed;
+	width: 400px;
+	height: 300px;
+	top: 100px;
+	left: 50%;
+	right: 50%;
+	margin-left: -200px;
+	background-color: #bbb;
+	border-radius: 20px;
+	color: black;
+	vertical-align: middle;
+	display: none;
+}
+
+.header {	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 24px;
+	border-bottom: 2px solid grey;	
+}
+
+.body {
+	padding-top:17%;
+}
+
+.center {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+}
+
+.center-text {
+	text-align: center;
+	margin-top: 10px;
+}
+
+.create {
+	margin-top: 15px;
+}
+
+.btn {
+	margin: 5px !important;
+}
+
+.new-gallery p{
+	margin-top: 50px;
+}
+
+.new-gallery input[type="file"] {
+	display: block;
+	margin: 0 auto;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+
+.edit {
+	margin-bottom: 60px;
+}
+
+input[type="checkbox"] {
+	margin:20px;
+	width: 25px;
+	height: 25px;
+}
+
+#delete-selected-container {
+	display: none;
+}
+
+.upload-images {
+	margin-top: 10px !important;
+	margin-right: 5px !important;
+	margin-left: 5px !important;
+}

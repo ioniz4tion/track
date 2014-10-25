@@ -1,0 +1,90 @@
+textarea {
+	background: rgba(0, 0, 0, 0.2);
+	color: #fff;
+	/*background: transparent;*/
+	border: 1px solid #999;
+	padding: 7px 10px;
+	outline: none;
+	border-radius: 5px;
+
+	-ms-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
+}
+
+.textarea-large {
+	width: 100%;
+	min-height: 100px;
+}
+
+.textarea-shoutout-small,
+.textarea-shoutout-large {
+	width: 100%;
+}
+
+.textarea-shoutout-small {
+	min-height: 50px;
+}
+
+@media (min-width: 844px) {
+	.textarea-shoutout-large {
+		min-height: 150px;
+	}
+}
+
+@media (max-width: 843px) {
+	.textarea-shoutout-large {
+		min-height: 100px;
+	}
+}
+
+textarea:focus {
+	box-shadow: 0 0 5px 1px #1e9cd7;
+	border-color: #1e9cd7;
+}
+
+.btn {
+	background: #333;
+}
+
+.save::before{
+	content: "\e172";
+}
+.save:hover {
+	background: #17aa56;
+}
+
+.delete::before {
+	content: "\e020";
+}
+.delete:hover {
+	background: #900;
+}
+
+.add::before {
+	content: "\2b";
+}
+
+.upload::before {
+	content: "\e167";
+}
+
+.send-email::before {
+	content: "\2709";
+}
+
+.send-text::before {
+	content: "\e145";
+}
+
+.add:hover,
+.upload:hover,
+.send-email:hover,
+.send-text:hover {
+	background: #1e9cd7;
+}
+
+.phone {
+	border: none !important;
+}

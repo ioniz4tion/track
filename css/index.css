@@ -1,0 +1,412 @@
+html {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	background: url(../images/background.jpg) no-repeat center center fixed;
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	padding: 0px;
+}
+
+.everything {
+	overflow: auto;
+	/*padding-top: 50px;*/
+	/*font-size: 14pt;*/
+}
+
+header {
+	background: transparent;
+
+	text-align: center;
+	/*box-shadow:0 4px 5px rgba(0, 0, 0, 1.0);*/
+}
+
+#t-wolf {
+	display: block;
+	width: 15%;
+	margin: 0 auto;
+}
+
+.header-big {
+	color: #fff;
+	text-shadow: 0 0 10px #000;
+	margin: 0px;
+	font-family: 'arialblack';
+	text-transform: uppercase;
+	font-size: 6.5vw;
+	margin-top: 2%;
+}
+
+.header-small {
+	color: #1e9cd7;
+	text-shadow: 0 0 5px #000;
+	margin: 0px;
+	margin-bottom: 2%;
+	font-size: 2.5vw;
+}
+
+#scroll-down {
+	display: block;
+	width: 5%;
+	margin: 0 auto;
+	opacity: 0.5;
+	position: relative;
+	top: 10px;
+
+	-ms-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
+}
+
+#scroll-down:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+#scroll-down-text {
+	color: rgb(209, 211, 212);
+	opacity: 0.5;
+
+	-ms-transition: all .25s linear;
+	-moz-transition: all .25s linear;
+	-webkit-transition: all .25s linear;
+	-o-transition: all .25s linear;
+}
+
+#scroll-down:hover + #scroll-down-text {
+	opacity: 1;
+}
+
+#track-info a,
+#field-info a {
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.events {
+	list-style: none;
+	text-transform: uppercase;
+	padding: 0px;
+}
+
+.events > li {
+	background: transparent;
+	padding: 10px 15px;
+	border-bottom: 2px solid;
+	/*border-radius: 5px;*/
+	margin: 5px 5px;
+	display: inline-block;
+}
+
+.navy .events li {
+	color: #fff;
+	border-color: #fff;
+}
+
+.silver .events li {
+	color: #000;
+	border-color: #000;
+}
+
+@media (min-width: 844px) {
+	.info-left,
+	.info-right {
+		display: block;
+		width: 50%;
+	}
+
+	.info-left {
+		float: left;
+	}
+
+	.info-right {
+		float: right;
+	}
+
+	.info-img-desktop {
+		display: block;
+		margin: 0 auto;
+		width: 40%;
+	}
+
+	.info-img-mobile {
+		display: none;
+	}
+}
+
+@media (max-width: 843px) {
+	.info-img-desktop {
+		display: none;
+	}
+
+	.info-img-mobile {
+		clear: both;
+		display: block;
+		margin: 0 auto;
+		margin-top: 10px;
+		width: 50%;
+	}
+}
+
+.vr {
+	background-color: #000;
+	width: 3px;
+	height: 500px;
+	float: left;
+	margin: 10px;
+}
+
+.date {
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.announcement-text {
+	margin-top: 0px;
+}
+
+@media (min-width: 844px) {
+	#news-list {
+		float: left;
+		width: 73.5%;
+	}
+
+	#shoutouts-list-desktop {
+		display: inline-block;
+		float: right;
+		max-width: 25%;
+		border-left: solid 3px #000;
+		padding-left: 20px;
+		padding-bottom: 20px;
+	}
+
+	#shoutouts-list-mobile {
+		display: none;
+	}
+
+	.shoutout-img {
+		display: block;
+		width: 85%;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 843px) {
+	#news-list {
+		float: none;
+		width: 100%;
+		padding-bottom: 5px;
+	}
+
+	#shoutouts-list-desktop {
+		border-top: 3px solid #000;
+
+	}
+
+	#shoutouts-list-mobile {
+		margin-bottom: 20px;
+		display: block;
+	}
+
+	.shoutout-img {
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+	}
+}
+
+#sched-tbl {
+	margin: 0 auto;
+	margin-top: 20px;
+	width: 100%;
+	color: #e7e7e7 !important;
+}
+
+#sched-tbl th,
+#sched-tbl td {
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #555;
+	padding: 4px;
+}
+
+#sched-tbl th {
+	border-top: none !important;
+}
+
+#records .cl-effect-21 {
+	margin: 0 auto;
+	display: table;
+}
+
+#records a {
+	margin-right: 20px;
+}
+
+#track-records th,
+#track-records td,
+#relay-records th,
+#relay-records td,
+#field-records th,
+#field-records td {
+	border-top: 1px solid #555;
+	border-bottom: 1px solid #555;
+	padding: 4px;
+}
+
+#track-records th,
+#relay-records th,
+#field-records th {
+	border-top: none !important;
+}
+
+@media (min-width: 844px) {
+	.boys-records,
+	.girls-records {
+		width: 45%;
+	}
+	
+	.girls-records {
+		float: right;
+	}
+	
+	.boys-records {
+		float: left;
+	}
+}
+
+@media (max-width: 843px) {
+	.boys-records,
+	.girls-records {
+		width: 100%;
+	}
+}
+
+#coaches {
+	padding-bottom: 0px !important;
+}
+
+.hr-teal {
+	background-color: rgba(2, 132, 130, 0.9);
+	height: 3px;
+	width: 100%;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.7) inset;
+	margin-bottom: 20px;
+	clear: both;
+}
+
+.coach-info {
+	clear: both;
+}
+
+.name {
+	font-family: 'arialblack';
+	margin-top: 0px;
+	text-transform: uppercase;
+}
+
+.contact {
+	margin: 12px auto;
+	display: table;
+}
+
+.contact div {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+@media (min-width: 880px) {
+	.contact .cl-effect-21 a {
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+	}
+}
+
+@media (min-width: 844px) and (max-width: 879px), {
+	.contact div {
+		display: table;
+		clear: both;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.contact .cl-effect-21 a {
+		margin-top: 20px !important;
+		margin-bottom: 0px !important;
+	}
+}
+
+@media (max-width: 679px) {
+	.contact div {
+		display: table;
+		clear: both;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.contact .cl-effect-21 a {
+		margin-top: 20px !important;
+		margin-bottom: 0px !important;
+	}
+}
+
+.glyphicon {
+	/*font-size: 38px;*/
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.phone {
+	background: transparent;
+	padding: 10px 15px 8px 15px;
+	border-bottom: 2px solid;
+	/*border-radius: 5px;*/
+	/*margin: 5px 5px;*/
+	/*margin-bottom: 10px;*/
+	color: #000;
+	border-color: #000;
+	display: inline-block;
+	text-align: center;
+}
+
+@media (min-width: 844px) {
+	#coaches .left,
+	#coaches .right {
+		margin: 0 2% 2% 2%;
+	}
+
+	#coaches div.left,
+	#coaches div.right {
+		width: 70%;
+	}
+
+	.coach-img-desktop {
+		display: inline-block;
+		width: 20%;
+	}
+
+	.coach-img-mobile {
+		display: none;
+	}
+}
+
+@media (max-width: 843px) {
+	#coaches div.left,
+	#coaches div.right {
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	.coach-img-desktop {
+		display: none;
+	}
+
+	.coach-img-mobile {
+		display: block;
+		width: 50%;
+		margin: 0 auto;
+	}
+}
