@@ -42,8 +42,13 @@
     	$path = "galleries/" . $_POST["year"] . "/" . $_POST["gallery"] . "/";
     	$thumbnailPath = "thumbnail/" . $_POST["year"] . "/" . $_POST["gallery"] . "/";
     	//echo "WHKJHGDKJHGSKJ";
+    	if (isset($_POST["compress"])) {
+    		$check = true;
+    	} else {
+    		$check = false;
+    	}
 		
-    	$functions->uploadThumbnail("file",$path,$thumbnailPath,true);
+    	$functions->uploadThumbnail("file",$path,$thumbnailPath,$check);
     }
 
     if (isset($_POST["deleteGallery"])) {
@@ -237,8 +242,8 @@
 			<div class="new-gallery" id="upload-form">
 				<div class="header">Upload Images</div>
 				<div>
-					<p class="upload-images">Allowed file types are .jpg, .png, .gif, and .zip. If you want to upload many images at a time, put them in a zip file and upload it. Make sure you are uploading to the right gallery (select one from the list before clicking upload images). The server might take some time to upload all files. Please reduce the filesize of the images before uploading so they will load faster.</p>
-				
+					<p class="upload-images">Allowed file types are .jpg, .png, .gif, and .zip. If you want to upload many images at a time, put them in a zip file and upload it. Make sure you are uploading to the right gallery (select one from the list before clicking upload images). The server might take some time to upload all files.</p>
+					<input type="checkbox" checked="true" name="compress">Auto Compress Images
 					<input type="file" name="file">
 					<button name="upload" class="btn btn-3 btn-3e create">Go</button>
 				

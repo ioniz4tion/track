@@ -185,7 +185,7 @@ class Functions
 		}		  
 	}
 
-	public static function uploadThumbnail($name,$path,$thumbnailPath,$max = false) {
+	public static function uploadThumbnail($name,$path,$thumbnailPath,$max) {
 		$allowedExts = array("gif", "jpeg", "jpg", "JPG", "x-png", "png", "pjpeg","JPEG");
 		$temp = explode(".", $_FILES[$name]["name"]);
 		$extension = end($temp);
@@ -227,7 +227,7 @@ class Functions
 		      $image = new SimpleImage();
 		      $image->load($path . $_FILES[$name]["name"]);
 		      if ($max) {
-			      $image->resizeToWidth(900);
+			      $image->resizeToWidth(850);
 			      $image->save($path . $_FILES[$name]["name"]);
 			  }
 		      $image->resizeToWidth(120);
@@ -279,7 +279,7 @@ class Functions
 					        	$image = new SimpleImage();
 						      	$image->load($path . $fileinfo["basename"]);
 						      	if ($max) {
-								    $image->resizeToWidth(1200);
+								    $image->resizeToWidth(850);
 								    $image->save($path . $_FILES[$name]["name"]);
 								}
 						     	$image->resizeToWidth(120);
