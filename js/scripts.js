@@ -151,8 +151,8 @@ $(document).ready(function() {
     $(window).resize(function() {
         //setNavLinkPadding();
         setHeaderHeight();
-        setHeaderPaddingVar();
-        setHeaderPadding();
+        // setHeaderPaddingVar();
+        // setHeaderPadding();
         //setFooterHeightVar();
 
 
@@ -178,8 +178,8 @@ $(document).ready(function() {
 
     //setNavLinkPadding();
     setHeaderHeight();
-    setHeaderPaddingVar();
-    setHeaderPadding();
+    // setHeaderPaddingVar();
+    // setHeaderPadding();
     //setArticleMargin();
     //setFooterHeightVar();
     setAboutDivHeight();
